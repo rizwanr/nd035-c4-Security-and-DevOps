@@ -5,3 +5,34 @@
 2022-01-19 14:42:20.738  WARN 77969 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m26s430ms).
 2022-01-19 15:03:58.881  WARN 77969 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m38s157ms).
 2022-01-19 17:50:31.957  WARN 77969 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s800ms), soft-evicting connections from pool.
+2022-01-19 22:33:01.139  INFO 3147 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on Rizwans-MacBook-Pro.local with PID 3147 (/Users/rizwanrenesa/Documents/nd035-c4-Security-and-DevOps/starter_code/target/classes started by rizwanrenesa in /Users/rizwanrenesa/Documents/nd035-c4-Security-and-DevOps/starter_code)
+2022-01-19 22:33:01.142  INFO 3147 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2022-01-19 22:33:02.826  INFO 3147 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-01-19 22:33:02.925  INFO 3147 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 4 repository interfaces.
+2022-01-19 22:33:03.895  INFO 3147 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c54a83e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-01-19 22:33:04.430  INFO 3147 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-19 22:33:04.480  INFO 3147 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-19 22:33:04.480  INFO 3147 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-01-19 22:33:04.669  INFO 3147 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-19 22:33:04.670  INFO 3147 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3441 ms
+2022-01-19 22:33:04.881  INFO 3147 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-19 22:33:05.160  INFO 3147 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-19 22:33:05.231  INFO 3147 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-01-19 22:33:05.340  INFO 3147 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2022-01-19 22:33:05.343  INFO 3147 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2022-01-19 22:33:05.586  INFO 3147 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-01-19 22:33:05.769  INFO 3147 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-19 22:33:06.752  INFO 3147 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-19 22:33:07.764  WARN 3147 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-19 22:33:07.843  INFO 3147 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c5cd2ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@78ea700f, org.springframework.security.web.header.HeaderWriterFilter@2aeb7c4c, org.springframework.web.filter.CorsFilter@72bdbfe9, org.springframework.security.web.authentication.logout.LogoutFilter@30437e9c, com.example.demo.security.JWTAuthenticationFilter@cda144a, com.example.demo.security.JWTAuthenticationVerficationFilter@7fb5368e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b1137b0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fd35a92, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5847010, org.springframework.security.web.session.SessionManagementFilter@31c0c7e5, org.springframework.security.web.access.ExceptionTranslationFilter@2befb16f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cdc8499]
+2022-01-19 22:33:07.995  INFO 3147 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-19 22:33:08.203  INFO 3147 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-19 22:33:08.207  INFO 3147 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 8.062 seconds (JVM running for 8.822)
+2022-01-19 22:33:27.607  INFO 3147 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-19 22:33:27.607  INFO 3147 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-19 22:33:27.624  INFO 3147 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2022-01-19 22:33:27.793  INFO 3147 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : CREATE_USER_SUCCESS: Username with Rizwan has been created
+2022-01-19 22:33:33.637  INFO 3147 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2022-01-19 22:33:33.857 ERROR 3147 --- [http-nio-8080-exec-3] c.e.d.security.UserDetailsServiceImpl    : Did not find user with username, Rizwanewer.
